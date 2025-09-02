@@ -1,3 +1,3 @@
 clear
 echo "Bắt đầu bot!"
-python batdau.py
+python3 batdau.py
