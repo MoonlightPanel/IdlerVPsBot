@@ -1,7 +1,7 @@
 #!/bin/bash
 clear
 echo "Code by NoiMC"
-apt-get update && apt-get install -y sudo wget python
+apt-get update
 apt install docker.io -y
 wget https://raw.githubusercontent.com/MoonlightPanel/IdlerVPsBot/refs/heads/main/Debian
 wget https://raw.githubusercontent.com/MoonlightPanel/IdlerVPsBot/refs/heads/main/Ubuntu
