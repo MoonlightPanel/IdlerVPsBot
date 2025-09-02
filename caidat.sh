@@ -7,4 +7,8 @@ docker build -t ubuntu-22.04-with-tmate -f Ubuntu . && docker build -t debian-wi
 rm Ubuntu
 rm Debian
 wget https://raw.githubusercontent.com/MoonlightPanel/IdlerVPsBot/refs/heads/main/batdau.sh
+wget https://raw.githubusercontent.com/MoonlightPanel/IdlerVPsBot/refs/heads/main/batdau.py
+echo "Token Discord Bot:"
+read token
+echo
 sh batdau.sh
