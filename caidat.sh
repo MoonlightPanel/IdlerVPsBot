@@ -1,7 +1,8 @@
 #!/bin/bash
 clear
 echo "Code by NoiMC"
-apt-get update && apt-get install -y --no-install-recommends sudo wget python docker.io
+apt-get update && apt-get install -y sudo wget python
+apt install docker.io -y
 wget https://raw.githubusercontent.com/MoonlightPanel/IdlerVPsBot/refs/heads/main/Debian
 wget https://raw.githubusercontent.com/MoonlightPanel/IdlerVPsBot/refs/heads/main/Ubuntu
 docker build -t ubuntu-22.04-with-tmate -f Ubuntu . && docker build -t debian-with-tmate -f Debian .
