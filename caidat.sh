@@ -9,6 +9,7 @@ rm Debian
 wget https://raw.githubusercontent.com/MoonlightPanel/IdlerVPsBot/refs/heads/main/batdau.sh
 wget https://raw.githubusercontent.com/MoonlightPanel/IdlerVPsBot/refs/heads/main/batdau.py
 echo "Token Discord Bot:"
-read token
-echo
+read -r DISCORD_TOKEN
+sed -i "s/TOKEN = ''/TOKEN = '$DISCORD_TOKEN'/" batdau.py
+echo "Đang bắt đầu chạy Bot"
 sh batdau.sh
