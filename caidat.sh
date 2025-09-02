@@ -10,6 +10,5 @@ wget https://raw.githubusercontent.com/MoonlightPanel/IdlerVPsBot/refs/heads/mai
 echo "Token Discord Bot:"
 read -r DISCORD_TOKEN
 sed -i "s/TOKEN = ''/TOKEN = '$DISCORD_TOKEN'/" batdau.py
-pip install discord docker
 echo "Đang bắt đầu chạy Bot"
 sh batdau.sh
