@@ -1,4 +1,5 @@
 #!/bin/bash
+clear
 echo "Code by NoiMC"
 apt-get update && apt-get install -y --no-install-recommends sudo wget python docker.io
 wget https://raw.githubusercontent.com/MoonlightPanel/IdlerVPsBot/refs/heads/main/Debian
